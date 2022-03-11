@@ -1,0 +1,15 @@
+﻿<Window x:Class="My_Visual_Studio_styled_App.NewProject"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:My_Visual_Studio_styled_App"
+        mc:Ignorable="d"
+        Title="NewProject" Height="260" Width="574"
+        Background="{StaticResource Background}" Foreground="White">
+    <Grid>
+        <TreeView HorizontalAlignment="Left" Width="139" Background="{StaticResource BackgroundHighlighted}">
+            <TreeViewItem Header="Installed" Foreground="White"/>
+        </TreeView>
+    </Grid>
+</Window>
